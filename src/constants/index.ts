@@ -214,65 +214,65 @@ const projects: TProject[] = [
   {
     name: "Hyperglycemia Detection using ECG and PPG Signals using Deep Learning",
     description:
-      "Web-based platform that allows users to search, book, and manage car rentals from various providers, providing a convenient and efficient solution for transportation needs.",
+      "Hyperglycemia Detection using ECG and PPG Signals using Deep Learning is a cutting-edge research project focused on identifying elevated blood glucose levels through non-invasive biosignals. By leveraging deep learning models on ECG and PPG data, the system ensures early and accurate hyperglycemia detection. This approach offers a promising alternative to traditional invasive glucose monitoring methods",
     tags: [
       {
-        name: "react",
+        name: "Feed-forward Neural Network",
         color: "blue-text-gradient",
       },
       {
-        name: "mongodb",
+        name: "Deep Learning",
         color: "green-text-gradient",
       },
       {
-        name: "tailwind",
+        name: "Research Published in Springer Nature",
         color: "pink-text-gradient",
       },
     ],
     image: carrent,
-    sourceCodeLink: "https://github.com/",
+    sourceCodeLink: "https://github.com/aryannpanchal/Major",
   },
   {
-    name: "Job IT",
+    name: "Innovative Strategies for Multiple Disease Prognosis using Machine Learning",
     description:
-      "Web application that enables users to search for job openings, view estimated salary ranges for positions, and locate available jobs based on their current location.",
+      "The project explores advanced algorithms to predict various diseases like Diabetes Mellitus, Myocardial Infarction and Chronic Kidney Disease from clinical data with high accuracy. The project integrates models like Logistic Regression, SVM, and Naive Bayes to enhance diagnostic precision. It aims to support early intervention and personalized healthcare through intelligent data-driven insights.",
     tags: [
       {
-        name: "react",
+        name: "Machine Learning",
         color: "blue-text-gradient",
       },
       {
-        name: "restapi",
+        name: "Project copyrighted by Government of India",
         color: "green-text-gradient",
       },
       {
-        name: "scss",
+        name: "Research published in IJIRE - Indexed by Google Scholar and Mendeley",
         color: "pink-text-gradient",
       },
     ],
     image: jobit,
-    sourceCodeLink: "https://github.com/",
+    sourceCodeLink: "https://github.com/aryannpanchal/multiple-disease-prognosis-using-machine-learning",
   },
   {
-    name: "Trip Guide",
+    name: "Chemisphere.in Official Website",
     description:
-      "A comprehensive travel booking platform that allows users to book flights, hotels, and rental cars, and offers curated recommendations for popular destinations.",
+      "The Chemisphere.in official website is a modern, responsive platform built using Next.js, Tailwind CSS, and Form.js. It delivers a seamless user experience for students seeking premium chemistry coaching, featuring fast navigation, clean design, and interactive forms for easy enrollment and inquiry",
     tags: [
       {
         name: "nextjs",
         color: "blue-text-gradient",
       },
       {
-        name: "supabase",
+        name: "Tailwind CSS",
         color: "green-text-gradient",
       },
       {
-        name: "css",
+        name: "Form.js",
         color: "pink-text-gradient",
       },
     ],
     image: tripguide,
-    sourceCodeLink: "https://github.com/",
+    sourceCodeLink: "https://www.chemisphere.in",
   },
 ];
 
