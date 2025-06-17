@@ -22,15 +22,14 @@ const ExperienceCard: React.FC<TExperience> = (experience) => {
       contentArrowStyle={{ borderRight: "7px solid  #232631" }}
       date={experience.date}
       iconStyle={{ background: experience.iconBg }}
-      icon={
-        <div className="flex h-full w-full items-center justify-center">
-          <img
-            src={experience.icon}
-            alt={experience.companyName}
-            className="h-[60%] w-[60%] object-contain"
-          />
-        </div>
-      }
+      // icon={
+      //   <div className="flex h-full w-full items-center justify-center">
+      //     <img
+      //       alt={experience.companyName}
+      //       className="h-[60%] w-[60%] object-contain"
+      //     />
+      //   </div>
+      // }
     >
       <div>
         <h3 className="text-[24px] font-bold text-white">{experience.title}</h3>

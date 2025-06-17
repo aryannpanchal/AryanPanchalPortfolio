@@ -52,8 +52,8 @@ const Navbar = () => {
     <nav
       className={`${
         styles.paddingX
-      } fixed top-0 z-20 flex w-full items-center py-12 ${
-        scrolled ? "bg-primary" : "bg-transparent"
+      } fixed top-0 z-20 border-b-2 border-gray-100 flex w-full items-center py-12 mt-0 ${
+        scrolled ? "bg-primary" : "bg-primary"
       }`}
     >
       <div className="mx-auto flex w-full max-w-7xl items-center justify-between">
@@ -65,7 +65,7 @@ const Navbar = () => {
           }}
         >
           {/* <img src={logo} alt="logo" className="h-9 w-9 object-contain" /> */}
-          <p className="flex cursor-pointer text-[18px] font-thin text-white ">
+          <p className="flex cursor-pointer text-[18px] font-normal text-white ">
             {config.html.title}
           </p>
         </Link>
