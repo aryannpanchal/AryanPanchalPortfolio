@@ -272,7 +272,7 @@ const projects: TProject[] = [
       },
     ],
     image: tripguide,
-    sourceCodeLink: "https://www.chemisphere.in",
+    sourceCodeLink: "https://www.chemisphere.in/",
   },
 
   
