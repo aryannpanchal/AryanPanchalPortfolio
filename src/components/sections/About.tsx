@@ -27,10 +27,10 @@ const ServiceCard: React.FC<IServiceCard> = ({ index, title }) => (
         variants={fadeIn("right", "spring", index * 0.5, 0.75)}
         className="green-pink-gradient shadow-card w-full rounded-[20px] p-[1px]"
       >
-        <div className="bg-tertiary flex min-h-[280px] flex-col items-center justify-evenly rounded-[20px] px-12 py-5">
+        <div className=" bg-tertiary flex min-h-[280px] flex-col items-center justify-evenly rounded-[20px] px-12 py-5">
   
 
-          <h3 className="text-center text-[20px] font-bold text-white">
+          <h3 className=" text-center text-[20px] font-bold text-white">
             {title}
           </h3>
         </div>

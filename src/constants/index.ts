@@ -186,26 +186,26 @@ const experiences: TExperience[] = [
 const testimonials: TTestimonial[] = [
   {
     testimonial:
-      "I thought it was impossible to make a website as beautiful as our product, but Rick proved me wrong.",
-    name: "Sara Lee",
-    designation: "CFO",
-    company: "Acme Co",
+      "Aryan helped scale my company from 2k to 250K followers. He helped setup the entire technical infrastructure and managed interns incredibly well.",
+    name: "Chandan Biswas",
+    designation: "CEO",
+    company: "Chemisphere",
     image: "https://randomuser.me/api/portraits/women/4.jpg",
   },
   {
     testimonial:
-      "I've never met a web developer who truly cares about their clients' success like Rick does.",
-    name: "Chris Brown",
-    designation: "COO",
-    company: "DEF Corp",
+      "Aryan's approach towards research is unique and noteworthy!",
+    name: "Dr. Sharmila Rathod",
+    designation: "Associate Professor",
+    company: "RGIT",
     image: "https://randomuser.me/api/portraits/men/5.jpg",
   },
   {
     testimonial:
-      "After Rick optimized our website, our traffic increased by 50%. We can't thank them enough!",
-    name: "Lisa Wang",
-    designation: "CTO",
-    company: "456 Enterprises",
+      "Aryan's leadership and management skills are unmatched!",
+    name: "Dr. Ajay Parabhakar",
+    designation: "Founder",
+    company: "Ananta Bharat Abhiyaan",
     image: "https://randomuser.me/api/portraits/women/6.jpg",
   },
 ];

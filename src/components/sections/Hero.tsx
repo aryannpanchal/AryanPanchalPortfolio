@@ -4,7 +4,7 @@ import { config } from "../../constants/config";
 
 const Hero = () => {
   return (
-    <section className={`relative mx-auto h-[320px] w-full mt-12`}>
+    <section className={`relative mx-auto h-[320px] w-full my-12`}>
       <div
         className={`absolute inset-0 top-[120px] mx-auto max-w-7xl ${styles.paddingX} flex flex-row items-start gap-5`}
       >

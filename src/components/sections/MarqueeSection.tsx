@@ -19,7 +19,7 @@ export function MarqueeSection() {
 
   return (
     
-    <div className="bg-primary md:my-12 md:mt-16">
+    <div className="bg-primary my-16">
     {/* <p className='font-semibold text-center laptop:text-4xl pb-12 mobile:pt-14 laptop:pt-0 mobile:text-2xl text-white'>Tech stack I have worked with</p> */}
       <div
         className="flex-row w-max flex"
