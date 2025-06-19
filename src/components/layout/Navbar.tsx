@@ -52,7 +52,7 @@ const Navbar = () => {
     <nav
       className={`${
         styles.paddingX
-      } fixed top-0 z-20 border-b-2 border-gray-100 flex w-full items-center py-2 mt-0 ${
+      } fixed top-0 z-20 border-b-2 border-gray-100 flex w-full items-center py-8 mt-0 ${
         scrolled ? "bg-primary" : "bg-primary"
       }`}
     >
@@ -65,7 +65,7 @@ const Navbar = () => {
           }}
         >
           {/* <img src={logo} alt="logo" className="h-9 w-9 object-contain" /> */}
-          <p className="flex cursor-pointer text-[10px] font-normal text-white ">
+          <p className="flex cursor-pointer text-[12px] font-normal text-white ">
             {config.html.title}
           </p>
         </Link>
@@ -76,7 +76,7 @@ const Navbar = () => {
               key={nav.id}
               className={`${
                 active === nav.id ? "text-white" : "text-secondary"
-              } cursor-pointer text-[10px] font-normal hover:text-white`}
+              } cursor-pointer text-[12px] font-normal hover:text-white`}
             >
               <a href={`#${nav.id}`}>{nav.title}</a>
             </li>
